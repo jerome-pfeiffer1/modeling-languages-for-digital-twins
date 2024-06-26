@@ -7,7 +7,22 @@ This replication package contains all information from the survey:
 - `results.csv`: A csv version of all data exported from LimeSurvey (German). Personal information from the participants has been removed. This file can be imported to reproduce the extraction results described in our paper.
 - `survey_german.pdf`: The pdf version of the original survey in German.  
 - `survey_german.md`: A markdown version of the original survey in German. 
-- `survey_english.md`: A markdown version of the survey translated into English. 
+- `survey_english.md`: A markdown version of the survey translated into English.
+- `limesurvey_survey_222232.lss`: To reproduce our results using [LimeSurvey](https://www.limesurvey.org/de) we provide the lss export of our original survey. This can be used to redistribute our survey to new target audiences. A manual on how to import the file into LimeSurvey is described below. 
+
+## Import a Survey into LimeSurvey
+You can import a survey from the *Create, import, or copy survey* screen. 
+1. From the **Surveys** dropdown options (on the top toolbar of your Limesurvey homepage) select **Import** a survey.   
+2. On the Import tab, click **Browse** and choose the file you wish to import. 
+3. Click the **Import survey** button. 
+4. Choose the LSS files format
+
+The import function "intelligently" re-numbers the survey, groups, questions, answers, and condition IDs so that they all match each other. No existing survey is going to be overwritten during the import process.
+
+By default, the resource links and expression fields are also imported. Basically, the more advanced type of questions are going to be also imported along questions that include complex branching, assessments, validation, and tailoring. 
+
+Once the import process is completed, a survey structure import summary will be displayed, showing whether it was successful or not: 
+
 
 ## Selection of participants and distribution
 With both versions, the survey can be executed again with a different target audience in English or German. In our case we wanted to reach as much participants from diverse work areas as possible, where we invited the participants by email via an internal mailing list of 189 members of the SofDCar project.  To improve the response rate, we implemented two deadline extensions from the initial one-month-long time frame with 2 weeks of additional response time. Together with the deadline extension, we sent a mail to inform and remind the members of the consortium of the survey.
