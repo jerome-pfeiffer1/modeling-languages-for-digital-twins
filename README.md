@@ -8,7 +8,7 @@ This replication package contains all information from the survey:
 - `survey_german.pdf`: The pdf version of the original survey in German.  
 - `survey_german.md`: A markdown version of the original survey in German. 
 - `survey_english.md`: A markdown version of the survey translated into English.
-- `limesurvey_survey_222232.lss`: To reproduce our results using [LimeSurvey](https://www.limesurvey.org/de) we provide the lss export of our original survey. This can be used to redistribute our survey to new target audiences. A manual on how to import the file into LimeSurvey is described below. 
+- `limesurvey_survey_222232.lss`: To reproduce our results using [LimeSurvey](https://www.limesurvey.org/) we provide the lss export of our original survey. This can be used to redistribute our survey to new target audiences. A manual on how to import the file into LimeSurvey is described below. 
 
 ## Import a Survey into LimeSurvey
 You can import a survey from the *Create, import, or copy survey* screen. 
